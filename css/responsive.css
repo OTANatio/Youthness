@@ -1,0 +1,13 @@
+@media screen and (min-width: 1440px) {
+   
+div.about-section {
+    clear: both;
+    margin-top: 86px;
+    background-image: url(img/grey_ng.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    padding: 64px 220px;
+}
+}

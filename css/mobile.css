@@ -1,4 +1,8 @@
 @media screen and (max-width: 981px) {
+
+    html {
+        width: 100% !important;
+    }
 p{
     font-size: 16px !important;
 }
@@ -7,6 +11,7 @@ p{
 div.navigation_bar {
     height: 54px;
     padding: 0px 24px;
+    width: auto;
 }
 
 div.brand-name {
@@ -24,13 +29,13 @@ div.navigation_bar ul {
 
 /*SECTION 2*/
 div.hero-section {
-    width: calc(100%);
-    float: left;
+    width: auto;
+    float: none;
 }
 
 div.hero-section div.right-container {
-    float: left;
-    width: calc(100% - 24px);
+    float: none;
+    width: auto;
     margin-left: 24px;
 }
 
@@ -41,7 +46,7 @@ div.hero-section div.right-container h1{
 }
 
 div.hero-section div.right-container p{
-    width: calc(100% - 48px);
+    width: auto;
     color: #333 !important;
     font-size: large;
     font-size: 18px;
@@ -60,10 +65,11 @@ div.about-section {
     padding: 32px 24px !important;
     height: 100vh !important;
     background-image: none;
+    width: auto;
 }
 
 div.about-section div.what-we-do {
-    text-align: center
+    text-align: center;
 }
 
 
@@ -74,13 +80,13 @@ div.about-section div.what-we-do  h1{
     text-align: center;
     margin: auto auto;
     margin-top: 54px;
-    width: 100%;
+    width: auto;
 }
 
 div.about-section div.what-we-do p {
-    margin: 32px auto;
+    margin: 32px 0px;
     color: #333 !important;
-    width: 100%;
+    width: auto;
 }
 
 div.about-illustration {
@@ -93,7 +99,7 @@ div.about-illustration {
 
 div.about-section-two {
     background-image: none;
-    width: 100%;
+    width: auto;
     margin: 0px;
     padding: 72px 0px;
     text-align: center;
@@ -103,16 +109,16 @@ div.about-section-two h1 {
     margin: auto auto;
     text-align: center;
     margin-bottom: 32px;
-    width: 100%;
+    width: auto;
 }
 
 div.about-section-two p {
     margin: auto auto;
     text-align: center;
-    margin: auto auto;
+    margin: auto 24px;
     margin-bottom: 54px;
     color: #333333 !important;
-    width: calc(100% - 48px);
+    width: auto;
 }
 
 div.about-section-two button {
@@ -129,17 +135,17 @@ div.about-section-two button {
 
 div.grid-layout {
     float: none;
-    width: 100%;
+    width: auto;
     padding: 54px 0px;
     text-align: center;
 }
 
 div.grid-layout div.container {
     float: none;
-    width: calc(100% - 48px);
+    width: auto;
     margin: auto auto;
     text-align: center;
-    margin-top: 48px;
+    margin-top: 24px;
 }
 
 div.grid-layout div.container h1 {
@@ -147,15 +153,15 @@ div.grid-layout div.container h1 {
 }
 
 div.grid-layout div.container p {
-    width: 100%;
-    margin: 16px auto;
+    width: auto;
+    margin: 16px 24px;
     color: #333 !important;
 }
 
 /*NEWSLETTER*/
 div.newsletter {
     float: none;
-    width: 100%;
+    width: auto;
     text-align: center;
     background: #fdfdfd;
     padding: 72px 0px;
@@ -166,8 +172,8 @@ div.newsletter h1 {
 }
 
 div.newsletter p {
-    width: 100%;
-    margin: auto auto;
+    width: auto;
+    margin: auto 24px;
     color: #333333 !important;
 }
 
@@ -195,7 +201,7 @@ div.newsletter button {
 /*FOOTER*/
 div.footer {
     float: none;
-    width: 100%;
+    width: auto;
     padding: 72px 0px;
     background: #38D39F;
     color: white !important;
@@ -211,8 +217,7 @@ div.footer h3 {
 
 div.footer div.container {
     float: none;
-    width: 100%;
-    margin: 0px 54px;
+    width: auto;
     text-align: left;
 }
 
